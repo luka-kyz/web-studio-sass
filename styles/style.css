@@ -1,0 +1,8 @@
+a {
+  color: $primary-color;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}

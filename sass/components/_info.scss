@@ -1,0 +1,97 @@
+.info {
+  background-color: $white-color;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+.info-img {
+  height: 294px;
+  flex-shrink: 0;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  margin-bottom: 20px;
+}
+.info-name {
+  color: $primary-color;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
+  width: 322px;
+  padding-bottom: 4px;
+}
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-self: center;
+}
+.info-box {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+}
+.info-text {
+  color: $secondary-color;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
+  width: 322px;
+}
+.info-item {
+  height: 404px;
+  flex-shrink: 0;
+  max-width: 370px;
+  position: relative; 
+  transition: box-shadow 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.info-item:hover {
+  flex-basis: calc((100% - (30px * 2)) / 3);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.info-overlay {
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+background: rgba(33, 150, 243, 0.90);
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+top: 0;
+display: flex;
+opacity: 0;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+transition: opacity 1s 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transform: translate(70px, 0px);
+}
+.info-overlay:hover {
+opacity: 1;
+transform: translate(0, 0);
+}
+.info-overlay-text {
+  color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px;
+width: 322px;
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 64px;
+padding-bottom: 64px;
+text-align: center;
+}
+.info-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

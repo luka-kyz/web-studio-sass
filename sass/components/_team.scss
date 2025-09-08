@@ -1,0 +1,95 @@
+.team {
+  background: $background-color;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-title {
+  color: $primary-color;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.team-name {
+  color: $primary-color;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  margin-bottom: 10px;
+}
+.team-text {
+  color: $secondary-color;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  margin-bottom: 10px;
+}
+.team-photo {
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  display: block;
+  background: url(./img/igor.webp) lightgray -86.437px -3.457px / 196.208%
+    136.002% no-repeat;
+  background: url(./img/olga.webp) lightgray -86.437px -3.457px / 196.208%
+    136.002% no-repeat;
+  background: url(./img/mikola.webp) lightgray -86.437px -3.457px / 196.208%
+    136.002% no-repeat;
+  background: url(./img/mihail.webp) lightgray -86.437px -3.457px / 196.208%
+    136.002% no-repeat;
+}
+.team-item {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: $white-color;
+}
+.team-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  fill: #afb1b8;
+  transition: background-color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.team-icon-link {
+  width: 20px;
+  height: 20px;
+}
+.team-link:hover,
+team-link:focus,
+team-icon-link:hover,
+team-icon-link:focus {
+  fill: white;
+}
+.team-link:hover,
+team-link:focus {
+  background-color: #2196f3;
+}
