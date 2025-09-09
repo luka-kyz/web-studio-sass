@@ -2,14 +2,14 @@
   background-color: $white-color;
   padding-top: 94px;
   padding-bottom: 50px;
-}
-.list-list {
+
+&__list {
   display: flex;
   gap: 8px;
   justify-content: center;
   align-content: center;
 }
-.list-button {
+&__button {
   background-color: #f5f4fa;
   border-radius: 4px;
   width: 125px;
@@ -29,7 +29,8 @@
   padding-right: 22px;
   transition: background-color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1), color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-button:hover {
+&__button:hover {
   background: $accent-color;
   color: #ffffff;
+}
 }

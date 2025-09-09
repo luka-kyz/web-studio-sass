@@ -1,8 +1,8 @@
 .plan {
   background: $white-color;
   padding-top: 94px;
-}
-.plan-name {
+
+&__name {
   width: 270px;
   color: $primary-color;
   font-family: Roboto;
@@ -14,11 +14,11 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.plan-list {
+&__list {
   display: flex;
   gap: 30px;
 }
-.plan-text {
+&__text {
   width: 270px;
   height: 72px;
   flex-shrink: 0;
@@ -30,9 +30,9 @@
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
-/* .plan-item {
+/* &__item {
 } */
-.plan-item::before {
+&__item::before {
   content: "";
   display: block;
   background: $background-color;
@@ -41,19 +41,20 @@
   border-radius: 4px;
   margin-bottom: 29px;
 }
-.plan-item:first-child::before {
+&__item:first-child::before {
   background: $background-color url("../img/plan-antenna.webp") no-repeat
     center;
 }
-.plan-item:nth-child(2)::before {
+&__item:nth-child(2)::before {
   background: $background-color url("../img/plan-clock.webp") no-repeat
     center;
 }
-.plan-item:nth-child(3)::before {
+&__item:nth-child(3)::before {
   background: $background-color url("../img/plan-diagram.webp") no-repeat
     center;
 }
-.plan-item:last-child::before {
+&__item:last-child::before {
   background: $background-color url("../img/plan-astrotaut.webp")
     no-repeat center;
+}
 }

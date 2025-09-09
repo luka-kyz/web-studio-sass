@@ -6,8 +6,8 @@ footer {
   padding-bottom: 60px;
   height: 252px;
   width: 1600px;
-}
-.footer-name {
+
+&__name {
   color: $white-color;
   font-family: Raleway;
   font-size: 26px;
@@ -16,7 +16,7 @@ footer {
   line-height: normal;
   letter-spacing: 0.78px;
 }
-.footer-span {
+&__span {
   color: $accent-color;
   font-family: Raleway;
   font-size: 26px;
@@ -25,7 +25,7 @@ footer {
   line-height: normal;
   letter-spacing: 0.78px;
 }
-.footer-adress {
+&__adress {
   color: $white-color;
   font-family: "Roboto";
   font-size: 14px;
@@ -36,15 +36,15 @@ footer {
   text-decoration: none;
   margin-bottom: 9px;
 }
-.footer-contacts-link:hover {
+&__contacts-link:hover {
   color: $accent-color;
   
 }
-.footer-icon-list {
+&__icon-list {
   display: flex;
   gap: 10px;
 }
-.footer-contacts-link {
+&__contacts-link {
   color: $secondary-color;
   font-family: Roboto;
   font-size: 14px;
@@ -54,7 +54,7 @@ footer {
   letter-spacing: 0.42px;
   transition: color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-text {
+&__text {
   color: $white-color;
   font-family: Roboto;
   font-size: 14px;
@@ -63,11 +63,11 @@ footer {
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
-.footer-container {
+&__container {
   display: flex;
   justify-items: flex-start;
 }
-.footer-title {
+&__title {
   color: #fff;
   font-family: "Roboto";
   font-size: 14px;
@@ -78,17 +78,17 @@ footer {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.footer-icons-list {
+&__icons-list {
   width: 20px;
   height: 20px;
   fill: white;
 }
-.footer-info {
+&__info {
   display: flex;
   flex-direction: column;
   margin-right: 70px;
 }
-.footer-logo {
+&__logo {
   color: #fff;
   font-family: "Raleway";
   font-size: 26px;
@@ -99,7 +99,7 @@ footer {
   text-decoration: none;
   margin-bottom: 20px;
 }
-.footer-icons-item {
+&__icons-item {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
@@ -109,23 +109,23 @@ footer {
   justify-content: center;
  transition: background-color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icons-item:hover,
-footer-icons-item:focus {
+&__icons-item:hover,
+&__icons-item:focus {
   background-color: #2196f3;
 }
-.footer-icons-link {
+&__icons-link {
   width: 20px;
   height: 20px;
   fill: white;
 }
-.footer-box {
+&__box {
 }
-.footer-box-new {
+&__box-new {
   display: flex;
   flex-direction: column;
   margin-left: 93px;
 }
-.footer-subtitle {
+&__subtitle {
   color: #fff;
   font-family: "Roboto";
   font-size: 14px;
@@ -136,11 +136,11 @@ footer-icons-item:focus {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.footer-form {
+&__form {
   display: flex;
   gap: 12px;
 }
-.footer-input {
+&__input {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto";
   font-size: 16px;
@@ -153,7 +153,7 @@ footer-icons-item:focus {
   outline: none;
   background: #2f303a;
 }
-.footer-label {
+&__label {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -163,7 +163,7 @@ footer-icons-item:focus {
   display: flex;
   align-items: center;
 }
-.footer-button {
+&__button {
   color: #fff;
   text-align: center;
   font-family: "Roboto";
@@ -183,14 +183,15 @@ footer-icons-item:focus {
   gap: 10px;
   transition: background-color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-button:hover {
+&__button:hover {
 box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.12);
 background-color: #3699ea;
 }
-.footer-icon-button {
+&__icon-button {
   width: 24px;
   height: 24px;
   fill: #fff;
 }
-.footer-container {
+&__container {
+}
 }
