@@ -1,8 +1,8 @@
-@import "./base/common";
 @import "./base/reset";
+@import "./base/common";
 @import "./utilites/vars";
-@import "./utilites/_placeholders.sass";
-@import "./utilites/_mixine.sass";
+@import "./utilites/placeholders";
+@import "./utilites/mixine";
 @import "./components/header";
 @import "./components/modal.scss";
 @import "./components/hero";

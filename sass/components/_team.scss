@@ -4,7 +4,7 @@
   padding-bottom: 94px;
 
   &__title {
-    @extend %title;
+    @extend %titles;
   }
   &__list {
     display: flex;
