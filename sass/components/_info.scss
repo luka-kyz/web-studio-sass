@@ -10,13 +10,10 @@
   margin-bottom: 20px;
 }
 &__name {
-  color: $primary-color;
+    @include text($size: 18px, $spacing: 1.08px, $weight: 700);
   font-family: Roboto;
-  font-size: 18px;
   font-style: normal;
-  font-weight: 700;
   line-height: 36px; /* 200% */
-  letter-spacing: 1.08px;
   width: 322px;
   padding-bottom: 4px;
 }
@@ -76,13 +73,11 @@ opacity: 1;
 transform: translate(0, 0);
 }
 &__overlay-text {
+    @include text($size: 18px, $spacing: 0.54px, $weight: 400);
   color: #FFF;
 font-family: Roboto;
-font-size: 18px;
 font-style: normal;
-font-weight: 400;
 line-height: 28px; /* 155.556% */
-letter-spacing: 0.54px;
 width: 322px;
 padding-left: 24px;
 padding-right: 24px;

@@ -66,11 +66,9 @@
       opacity 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   &__link {
+    @include text($size: 14px, $spacing: 0.28px, $weight: 500);
     color: $primary-color;
     font-family: Roboto, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
     position: relative;
     transition: color 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1),
       opacity 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1);

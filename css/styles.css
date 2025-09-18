@@ -115,11 +115,14 @@ body {
   transition: color 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  font-weight: 500;
   color: #212121;
   font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
   position: relative;
   transition: color 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 50ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -418,16 +421,18 @@ body {
   background-size: 1600px 600px;
 }
 .hero__title {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  font-weight: 900;
   width: 696px;
   flex-shrink: 0;
   color: #ffffff;
   text-align: center;
   font-family: Roboto;
-  font-size: 44px;
   font-style: normal;
-  font-weight: 900;
-  line-height: 60px; /* 136.364% */
-  letter-spacing: 2.64px;
   text-transform: uppercase;
   display: flex;
   margin-bottom: 40px;
@@ -483,16 +488,19 @@ body {
   gap: 30px;
 }
 .plan__text {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  font-weight: 400;
   width: 270px;
   height: 72px;
   flex-shrink: 0;
   color: #757575;
   font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 171.429% */
-  letter-spacing: 0.42px;
 }
 .plan__item::before {
   content: "";
@@ -537,9 +545,13 @@ body {
   transition: opacity 10s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .three__item > .three__text {
+  font-style: normal;
   font-family: "Roboto";
-  font-weight: 700;
   font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-family: "Roboto";
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
@@ -589,14 +601,17 @@ body {
   margin-bottom: 10px;
 }
 .team__text {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  font-weight: 400;
   color: #757575;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.48px;
   margin-bottom: 10px;
 }
 .team__photo {
@@ -729,13 +744,16 @@ body {
   transition: color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__text {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  font-weight: 400;
   color: #ffffff;
   font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 171.429% */
-  letter-spacing: 0.42px;
 }
 .footer__container {
   display: flex;
@@ -902,6 +920,12 @@ body {
   align-content: center;
 }
 .list__button {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  font-weight: 500;
   background-color: #f5f4fa;
   border-radius: 4px;
   width: 125px;
@@ -910,11 +934,8 @@ body {
   color: #212121;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
   line-height: 26px; /* 162.5% */
-  letter-spacing: 0.48px;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -938,13 +959,15 @@ body {
   margin-bottom: 20px;
 }
 .info__name {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 18px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 36px; /* 200% */
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: normal;
   letter-spacing: 1.08px;
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 36px; /* 200% */
   width: 322px;
   padding-bottom: 4px;
 }
@@ -1003,13 +1026,16 @@ body {
   transform: translate(0, 0);
 }
 .info__overlay-text {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  font-weight: 400;
   color: #FFF;
   font-family: Roboto;
-  font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 28px; /* 155.556% */
-  letter-spacing: 0.54px;
   width: 322px;
   padding-left: 24px;
   padding-right: 24px;

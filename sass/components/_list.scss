@@ -10,6 +10,7 @@
   align-content: center;
 }
 &__button {
+    @include text($size: 16px, $spacing: 0.48px, $weight: 500);
   background-color: #f5f4fa;
   border-radius: 4px;
   width: 125px;
@@ -18,11 +19,8 @@
   color: #212121;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
   line-height: 26px; /* 162.5% */
-  letter-spacing: 0.48px;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;

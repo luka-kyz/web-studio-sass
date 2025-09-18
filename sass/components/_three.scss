@@ -22,9 +22,8 @@
   transition: opacity 10s 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 &__item > &__text {
+    @include text($size: 14px, $spacing: 0.03em, $weight: 700);
   font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;

@@ -29,14 +29,12 @@
     margin-bottom: 10px;
   }
   &__text {
+      @include text($size: 16px, $spacing: 0.48px, $weight: 400);
     color: $secondary-color;
     text-align: center;
     font-family: Roboto;
-    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.48px;
     margin-bottom: 10px;
   }
  &__photo {

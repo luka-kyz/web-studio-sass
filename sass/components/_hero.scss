@@ -12,16 +12,13 @@
   background-size: 1600px 600px;
 
 &__title {
+  @include title($size: 44px, $height: 60px, $spacing: 2.64px, $weight: 900);
   width: 696px;
   flex-shrink: 0;
   color: $white-color;
   text-align: center;
   font-family: Roboto;
-  font-size: 44px;
   font-style: normal;
-  font-weight: 900;
-  line-height: 60px; /* 136.364% */
-  letter-spacing: 2.64px;
   text-transform: uppercase;
   display: flex;
   margin-bottom: 40px;
