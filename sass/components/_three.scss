@@ -1,7 +1,13 @@
 .three {
   background: $white-color;
-  padding-top: 99px;
+display: none;
+      @media screen and (min-width: 1200px) {
+ padding-top: 99px;
   padding-bottom: 94px;
+  display: flex;
+  }
+
+ 
 
 &__title {
   @extend %titles;

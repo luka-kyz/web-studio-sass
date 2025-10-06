@@ -1,6 +1,22 @@
 .plan {
   background: $white-color;
+
+    padding-top: 56px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 80px;
+
+    @media screen and (min-width: 768px) {
+    padding-top: 61px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @media screen and (min-width: 1280px) {
   padding-top: 94px;
+  padding-left: 106px;
+  padding-right: 106px;
+  }
 
 &__name {
   width: 270px;
@@ -16,7 +32,10 @@
 }
 &__list {
   display: flex;
-  gap: 30px;
+  gap: 32px;
+   flex-wrap: wrap;
+   text-align: center;
+   justify-content: center;
 }
 &__text {
   @include text($size: 14px, $spacing: 0.42px, $weight: 400);
@@ -34,10 +53,18 @@
   content: "";
   display: block;
   background: $background-color;
-  width: 270px;
+  max-width: 450px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 29px;
+         @media screen and (min-width: 768px) {
+max-width: 354px;
+width: 100%;
+  }
+           @media screen and (min-width: 1200px) {
+  width: 270px;
+  }
 }
 &__item:first-child::before {
   background: $background-color url("../img/plan-antenna.webp") no-repeat

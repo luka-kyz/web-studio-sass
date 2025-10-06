@@ -68,9 +68,15 @@
               </svg>
               +38 096 111 11 11</a
             >
-          </li>
+            </li>
         </ul>
+                  <button class="header__burger">
+          <svg class="header__svg">
+            <use href="./images/icons.svg#icon-polos"></use>
+          </svg>
+        </button>
       </div>
+
     </header>
     <main>
       <!-- Секция 1 -->
@@ -83,7 +89,7 @@
         </div>
       </section>
       <!-- Модальное окно для 1 секции -->
-      <div class="hero-backdrop is-hidden" data-modal>
+      <!-- <div class="hero-backdrop is-hidden" data-modal>
         <div class="hero-modal">
           <button type="button" class="hero-close-modal" data-modal-close>
             <svg class="hero-svg-modal">
@@ -139,7 +145,7 @@
             <button class="hero-button-modal">Відправити</button>
           </form>
         </div>
-      </div>
+      </div> -->
       <!-- Секция 2 -->
       <section class="plan">
         <div class="container">
@@ -511,9 +517,52 @@
         </div>
       </div>
     </footer>
+    <!-- Мобильное меню -->
+<div class="menu hidden" data-menu>
+    <div class="menu__box">
+    <svg class="menu__logo">
+      <use href="./images/icons.svg#icon-logo"></use>
+    </svg>
+
+    <button class="menu__button" data-menu-close>
+      <svg class="menu__close">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </div>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="" class="header__link">Студія</a>
+        </li>
+        <li class="menu__item">
+          <a href=""  class="header__link">Портфоліо</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="header__link">Контакти</a>
+        </li>
+      </ul>
+      <ul class="header__contacts">
+          <li class="header__contacts-item-blue">
+            <a href="mailto:info@devstudio.com" class="header__contacts-link">
+              <svg class="header__contacts-icon" width="16" height="12">
+                <use href="./img/svg/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header__contacts-item-blue">
+            <a href="tel:+380961111111" class="header__contacts-link">
+              <svg class="header__contacts-icon" width="16" height="12">
+                <use href="./img/svg/symbol-defs.svg#icon-mobile"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+            </li>
+        </ul>
+ 
+  </div>
     <a class="scroll-top" href="#top">
       <svg class="scroll-svg">
-        <use href="./img/svg/symbol-defs.svg#icon-up"></use>
+        <use href="././img/svg/symbol-defs.svg#icon-up"></use>
       </svg>
     </a>
     <script src="./js/modal.js"></script>

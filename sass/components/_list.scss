@@ -8,7 +8,9 @@
   gap: 8px;
   justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
 }
+
 &__button {
     @include text($size: 16px, $spacing: 0.48px, $weight: 500);
   background-color: #f5f4fa;

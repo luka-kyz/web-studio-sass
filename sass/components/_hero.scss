@@ -1,8 +1,8 @@
 .hero {
   height: 600px;
   flex-shrink: 0;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 128px;
+  padding-bottom: 115px;
   background: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
@@ -10,44 +10,61 @@
     ),
     url("../img/Img-18.webp") no-repeat, #2f303a;
   background-size: 1600px 600px;
+  @media screen and (min-width: 768px) {
+padding-top: 131px;
+padding-bottom: 117px;
+  }
 
-&__title {
-  @include title($size: 44px, $height: 60px, $spacing: 2.64px, $weight: 900);
-  width: 696px;
-  flex-shrink: 0;
-  color: $white-color;
-  text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  text-transform: uppercase;
-  display: flex;
-  margin-bottom: 40px;
-  margin: 0 auto;
-}
-&__button {
-  width: 216px;
-  height: 50px;
-  flex-shrink: 0;
-  color: $white-color;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px; /* 187.5% */
-  letter-spacing: 0.96px;
-  display: flex;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 28px;
-  padding-right: 28px;
-  border-radius: 4px;
-    transition: background-color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 1s 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-&__button:hover {
-box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.12);
-background-color: #3699ea;
-}
+  @media screen and (min-width: 1280px) {
+padding-top: 200px;
+padding-bottom: 103px;
+  }
+
+  &__title {
+    @include title($size: px, $height: 60px, $spacing: 2.64px, $weight: 900);
+    flex-shrink: 0;
+    color: $white-color;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    text-transform: uppercase;
+    // display: flex;
+    margin-bottom: 40px;
+    margin: 0 auto;
+      @media screen and (min-width: 768px) {
+
+  }
+
+  @media screen and (min-width: 1280px) {
+     width: 696px;
+
+  }
+  }
+  &__button {
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    color: $white-color;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 4px;
+    transition: background-color 1s 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 1s 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__button:hover {
+    box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.12);
+    background-color: #3699ea;
+  }
 }

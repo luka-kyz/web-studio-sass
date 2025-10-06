@@ -6,8 +6,16 @@ body {
   color: var(--white-color);
 }
 .container {
-  width: 1200px;
+  width: 100%;
   padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+ 
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }
