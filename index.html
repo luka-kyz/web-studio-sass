@@ -68,62 +68,84 @@
               </svg>
               +38 096 111 11 11</a
             >
-            </li>
+          </li>
         </ul>
-                  <button class="header__burger" modal-open>
+        <button type="button" class="header__burger" modal-open>
           <svg class="header__svg">
             <use href="./images/icons.svg#icon-polos"></use>
           </svg>
         </button>
       </div>
-<!-- Мобильное меню -->
-<section class="menu hidden" data-menu>
-  <div class="menu__backdrop">
-
-    <button class="menu__button" data-menu-close>
-      <svg class="menu__close">
-        <use href="./images/icons.svg#icon-close"></use>
-      </svg>
-      </button>
-      <nav class="menu__nav">
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a href="" class="header__link">Студія</a>
-        </li>
-        <li class="menu__item">
-          <a href=""  class="header__link">Портфоліо</a>
-        </li>
-        <li class="menu__item">
-          <a href="" class="header__link">Контакти</a>
-        </li>
-      </ul>
-      </nav>
-      <ul class="header__contacts">
-          <li class="header__contacts-item-blue">
-            <a href="mailto:info@devstudio.com" class="header__contacts-link">
-              <svg class="header__contacts-icon" width="16" height="12">
-                <use href="./img/svg/symbol-defs.svg#icon-envelope"></use>
+      <!-- Мобильное меню -->
+      <section class="menu hidden" data-menu>
+        <div class="menu__backdrop">
+          <div class="menu_box">
+            <button class="menu__button" data-menu-close>
+              <svg class="menu__close">
+                <use href="./images/icons.svg#icon-close"></use>
               </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="header__contacts-item-blue">
-            <a href="tel:+380961111111" class="header__contacts-link">
-              <svg class="header__contacts-icon" width="16" height="12">
-                <use href="./img/svg/symbol-defs.svg#icon-mobile"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-            </li>
-        </ul>
- </div>
-</section>
+            </button>
+            <nav class="menu__nav">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="header__link">Студія</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="header__link">Портфоліо</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="header__link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="header__contacts">
+              <li class="header__contacts-item-blue">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="header__contacts-link"
+                >
+                  <svg class="header__contacts-icon" width="16" height="12">
+                    <use href="./img/svg/symbol-defs.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="header__contacts-item-blue">
+                <a href="tel:+380961111111" class="header__contacts-link">
+                  <svg class="header__contacts-icon" width="16" height="12">
+                    <use href="./img/svg/symbol-defs.svg#icon-mobile"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="menu_container">
+            <ul class="menu__link_list">
+              <li class="menu__link_item">
+                <a href="#" class="menu__link_link"> Instagram</a>
+              </li>
+              <li class="menu__link_item">
+                <a href="#" class="menu__link_link"> Twitter</a>
+              </li>
+              <li class="menu__link_item">
+                <a href="#" class="menu__link_link"> Facebook</a>
+              </li>
+              <li class="menu__link_item">
+                <a href="#" class="menu__link_link"> Linkedin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
       <!-- Секция 1 -->
       <section class="hero" id="top">
         <div class="container">
-          <h1 class="hero__title animate__animated animate__bounce">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero__title animate__animated animate__bounce">
+            Ефективні рішення для вашого бізнесу
+          </h1>
           <button type="button" class="hero__button" data-modal-open>
             Замовити послугу
           </button>

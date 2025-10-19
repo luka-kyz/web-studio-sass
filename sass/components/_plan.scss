@@ -36,6 +36,9 @@
    flex-wrap: wrap;
    text-align: center;
    justify-content: center;
+    @media screen and (min-width: 1280px) {
+gap: 30px;
+  }
 }
 &__text {
   @include text($size: 14px, $spacing: 0.42px, $weight: 400);

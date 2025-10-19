@@ -3,19 +3,60 @@
   pointer-events: none;
 }
 .menu {
-height: 100%;
-width: 100%;
-background-color: white;
+  height: 100%;
+  width: 100%;
+//   opacity: 1;
+  transition-property: opacity, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: white;
+  z-index: 1;
 
   @media screen and (min-width: 768px) {
-display: none;
+    display: none;
   }
   &__backdrop {
- position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 50;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      transition-property: opacity, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @media screen and (min-width: 768px) {
+    display: none;
+  }
+  }
+  &__container {
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+  }
+  &__button {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+  }
+  &__close {
+    width: 30px;
+    height: 30px;
+  }
+  &__container {
+margin-top: 70px;
+  }
+  &__link_list {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
   }
 }
