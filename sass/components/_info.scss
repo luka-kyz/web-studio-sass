@@ -84,6 +84,10 @@ transform: translate(0px, 0px);
 // margin-left: 170px;
 width: 350px;
   }
+      @media screen and (min-width: 1280px) {
+// margin-left: 170px;
+width: 370px;
+  }
 }
 &__overlay:hover {
 opacity: 1;

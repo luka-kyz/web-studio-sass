@@ -1349,6 +1349,11 @@ body {
     width: 350px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .info__overlay {
+    width: 370px;
+  }
+}
 .info__overlay:hover {
   opacity: 1;
   transform: translate(0, 0);
