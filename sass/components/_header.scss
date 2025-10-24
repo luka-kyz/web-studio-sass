@@ -1,7 +1,7 @@
 
 
 .header {
-  border-bottom: 1px solid red;
+  // border-bottom: 1px solid red;
   background-color: $white-color;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -17,7 +17,7 @@
   }
   @media screen and (min-width: 1200px) {
     padding-bottom: 25px;
-  }
+  }fill: #212121;
   &__nav {
     display: none;
 
@@ -200,7 +200,6 @@
   &__burger {
     background-color: transparent;
     margin-left: auto;
-    border-bottom: 1px solid red;
     @media screen and (min-width: 768px) {
       display: none;
     }
@@ -209,7 +208,6 @@
     width: 24px;
     height: 14px;
     fill: #000;
-    border-bottom: 1px solid red;
     @media screen and (min-width: 768px) {
       display: none;
 
