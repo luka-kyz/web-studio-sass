@@ -92,7 +92,7 @@
                 <a href="" class="menu__link">Студія</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">Портфоліо</a>
+                <a href="./portfolio.html" class="menu__link">Портфоліо</a>
               </li>
               <li class="menu__item">
                 <a href="" class="menu__link">Контакти</a>
@@ -111,7 +111,7 @@
               >
             </li>
           </ul>
-                  </div>
+        </div>
         <div class="menu_container">
           <ul class="menu__link_list">
             <li class="menu__link_item">
@@ -275,12 +275,35 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img
-                src="./img/igor.webp"
-                alt="Ігор Дем'яненко"
-                width="250"
-                class="team__photo"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/ihor-team@desktop-1x.webp 1x,
+                    ./images/desktop/ihor-team@desktop-2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/ihor-team@tablet-1x.png 1x,
+                    ./images/desktop/tablet/mobile/ihor-team@tablet-2x.png 2x
+                  "
+                  media="(min-width: 736px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/ihor-team@mobile-1x.png 1x,
+                    ./images/desktop/tablet/mobile/ihor-team@mobile-2x.png 2x
+                  "
+                  media="(max-width: 736px)"
+                />
+                <img
+                  src="./img/igor.webp"
+                  alt="Ігор Дем'яненко"
+                  width="250"
+                  class="team__photo"
+                />
+              </picture>
               <h3 class="team__name">Ігор Дем'яненко</h3>
               <p class="team__text">Product Designer</p>
               <ul class="team__icon-list">
@@ -317,12 +340,36 @@
               </ul>
             </li>
             <li class="team__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/olga-team@desktop-1x.webp 1x,
+                    ./images/desktop/olga-team@desktop-2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/olga-team@tablet-1x.webp 1x,
+                    ./images/desktop/tablet/mobile/olga-team@tablet-2x.webp 2x
+                  "
+                  media="(min-width: 736px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/olga-team@mobile-1x.png 1x,
+                    ./images/desktop/tablet/mobile/olga-team@mobile-2x.png 2x
+                  "
+                  media="(max-width: 736px)"
+                />
               <img
                 src="./img/olga.webp"
                 alt="Ольга Рєпіна"
                 width="250"
                 class="team__photo"
               />
+              </picture>
+
               <h3 class="team__name">Ольга Рєпіна</h3>
               <p class="team__text">Frontend Developer</p>
               <ul class="team__icon-list">
@@ -359,12 +406,36 @@
               </ul>
             </li>
             <li class="team__item">
+                            <picture>
+                 <source
+                  srcset="
+                    ./images/desktop/micola-team@desktop-1x.webp 1x,
+                    ./images/desktop/micola-team@desktop-2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/micola-team@tablet-2x.webp 1x,
+                    ./images/desktop/tablet/mobile/mihail-team@tablet-1x.png 2x
+                  "
+                  media="(min-width: 736px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/micola-team@mobile-1x.png 1x,
+                    ./images/desktop/tablet/mobile/micola-team@mobile-2x.png 2x
+                  "
+                  media="(max-width: 736px)"
+                />
               <img
                 src="./img/mikola.webp"
                 alt="Микола Тарасов"
                 width="250"
                 class="team__photo"
               />
+              </picture>
+
               <h3 class="team__name">Микола Тарасов</h3>
               <p class="team__text">Marketing</p>
               <ul class="team__icon-list">
@@ -401,12 +472,36 @@
               </ul>
             </li>
             <li class="team__item">
+                                 <picture>
+                <source
+                  srcset="
+                    ./images/desktop/mihail-team@desktop-1x.webp 1x,
+                    ./images/desktop/mihail-team@desktop-2x.webp 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/mihail-team@tablet-2x.webp 1x,
+                    ./images/desktop/tablet/mobile/mihail-team@tablet-1x.png 2x
+                  "
+                  media="(min-width: 736px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/tablet/mobile/mihail-team@mobile-1x.png 1x,
+                    ./images/desktop/tablet/mobile/mihail-team@mobile-2x.png 2x
+                  "
+                  media="(max-width: 736px)"
+                />
               <img
                 src="./img/mihail.webp"
                 alt="Михайло Єрмаков"
                 width="250"
                 class="team__photo"
               />
+              </picture>
+
               <h3 class="team__name">Михайло Єрмаков</h3>
               <p class="team__text">UI Designer</p>
               <ul class="team__icon-list">
@@ -577,6 +672,6 @@
       </svg>
     </a>
     <script src="./js/modal.js"></script>
-        <script src="./js/mobile.js"></script>
+    <script src="./js/mobile.js"></script>
   </body>
 </html>
