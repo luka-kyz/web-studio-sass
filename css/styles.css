@@ -581,7 +581,7 @@ body {
   flex-shrink: 0;
   padding-top: 128px;
   padding-bottom: 115px;
-  background: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/desktop/tablet/mobile/bg-hero@mobile-1x.png") no-repeat, #2f303a;
+  background: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/desktop/tablet/mobile/bg-hero@mobile-1x.png") no-repeat, #2f303a;
   background-size: 1600px 600px;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
